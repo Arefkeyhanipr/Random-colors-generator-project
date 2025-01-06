@@ -40,7 +40,7 @@ svg {
   display: flex;
   flex-direction: column;
   position: absolute;
-  /* opacity: 0; */
+  opacity: 0;
   bottom: 0%;
   background: #0b8790;
   /* background: #7091e6; */
@@ -50,9 +50,9 @@ svg {
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   font-size: 1.25rem;
-  /* pointer-events: none; */
+  pointer-events: none;
   /* We are adding an adjustment class */
-  /* transform: translateY(100px); */
+  transform: translateY(100px);
   transition: all 0.5s ease-in-out;
 }
 
@@ -142,6 +142,7 @@ input[type="range"] {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.75s ease-in-out;
   opacity: 0;
   pointer-events: none;
   font-size: 2rem;
