@@ -6,6 +6,7 @@
 
 body {
   color: rgb(51, 51, 51);
+  background-color: #a68669;
 }
 
 path,
@@ -90,6 +91,7 @@ svg {
   align-items: center;
   justify-content: space-evenly;
   height: 20vh;
+  border-top: 2px solid gray;
 }
 
 .panel button {
@@ -113,6 +115,13 @@ svg {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.library-panel p,
+.generate-panel p,
+.save-panel p {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .adjust,
